@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 37rem;
+}
+
+.status{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    margin-left: 18px;
+ 
+}
+
+.quantity{
+    color: #c084fc;
+    background-color: #e9d5ff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

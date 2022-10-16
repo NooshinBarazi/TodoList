@@ -1,0 +1,27 @@
+.todoform{
+margin-bottom: 40px;
+margin-top: 20px;
+}
+.taskBar{
+    display: flex;
+    justify-content: space-around;
+}
+.taskInput{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 20rem;
+    height: 20px;
+    outline: none;
+    display: flex;
+    justify-content: start;
+}
+.addBtn{
+    width: 8rem;
+    height: 2rem;
+    background-color: #c084fc;
+    color: #fff;
+    border: 1px solid #c084fc;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

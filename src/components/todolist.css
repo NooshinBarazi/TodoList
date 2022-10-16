@@ -1,0 +1,40 @@
+.todolist{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.taskCheck{
+    width: 20rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+.taskCheck span{
+    margin-bottom: -5px;
+    margin-right: 10px;
+    
+}
+.taskTitle{
+    font-weight: bold;
+    color: #404040;
+}
+.completed{
+    text-decoration: line-through;
+    color: darkgrey;
+}
+.editBtn{
+    margin-right: 10px;
+    border: 1px solid #701a75;
+    border-radius: 5px;
+    padding: 3px 12px;
+    color: #701a75;
+    font-weight: bold;
+}
+.deleteBtn{
+    color: #dc2626;
+    border: 1px solid #dc2626;
+    border-radius: 5px;
+    padding: 3px 12px;
+    font-weight: bold;
+}
